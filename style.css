@@ -1,0 +1,208 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis' , sans-serif;
+}
+.hero{
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+ 
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 0 10px;
+}
+ul li a:hover{
+    background-color: rgb(34, 6, 6);
+    color: rgb(250, 249, 252);
+    transition: 0.3s ease-in
+}
+
+ul>li:nth-child(2) h3{
+    padding: 0;
+    margin: 0;
+}
+ul>li:nth-child(2) small{
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+}
+.icon{
+    font-size: 20px;
+}
+ul>li:nth-child(1){
+    font-size: 40px !important;
+    color: red;
+    padding-right: 5px;
+}
+.center{
+    text-align: center;
+}
+li{
+    padding: 10px;
+}
+li a{
+    font-size: 12px;
+}
+.header-container{
+    background-image: url('./images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg');
+    width:100%;
+    height: 530px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contain{
+    position: relative;
+    width: 100%;
+    height: 530px;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+.right{
+    float: right;
+    color: white;
+    margin-right:25% ;
+    margin-top: 90px;
+    width: 300px;
+}
+.right h1{
+    font-size: 10vh;
+    font-weight: bolder;
+    padding: 0;
+    line-height: 1;
+}
+.right p{
+    font-size: small;
+    line-height: 1.5;
+}
+.a-b{
+    padding: 7px 20px;
+    color:white;
+    background-color: orangered;
+    border: none;
+    font-weight: bold;
+}
+.a-b:hover{
+    background-color: white;
+    color: orangered;
+    transition: 0.3s ease-in;
+}
+.mid{
+    background-color: orangered;
+    width: 100%;
+    height: 200px;
+}
+.mid-text{
+    position: relative;
+    font-size: 10vh;
+    color: white;
+    font-weight: bolder;
+    top: 30%;
+    margin-left: 10%;
+}
+.div-img img{
+    top:-60px;
+    position: absolute;
+}
+.c2{
+    width: 100%;
+    background-color: orangered;
+    padding: 30px;
+}
+.circle{
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.circle i{
+    font-size: 6vh;
+}
+.tag p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1rem;
+}
+.sp small{
+    font-size: .75rem;
+    line-height: .75rem;
+}
+.img-2{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+.bac{
+    background-color: rgb(3, 5, 29);
+    color: white; 
+}
+.bac div h1{
+    font-weight: bolder;
+    font-size: 5vh;
+}
+.bac div p{
+    font-size: .69rem;
+}
+.bac div{
+    width: 75%;
+}
+.bac div{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.circle-2{
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.circle-2 i{
+    font-size: 5vh;
+    color: white;
+}
+.eid p{
+    font-weight: bolder;
+    text-align: left;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.eid small{
+    font-size: .75rem;
+    color: rgb(133, 133, 133);
+    text-align: left;
+}
+input{
+    border: none;
+    border-bottom:2px solid black ;
+}
+textarea{
+    border: none;
+    border-bottom:2px solid black ;
+}
+table tr td{
+    padding: 10px;
+}
+.footer{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(3, 5, 29);
+}
+.s1{
+    color: white;
+}
